@@ -1,0 +1,30 @@
+* {
+  /* resets */
+  box-sizing: border-box;
+}
+
+body{
+  /* color */
+  background-color: black;
+
+  /* box model */
+  margin: 1rem;
+}
+
+/* grid container */
+main {
+  /* grid */
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* grid children */
+img {
+  /* box model */
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  /* image design */
+  
+  box-shadow: -1px 0px rgba(0,0,0,0.06);
+}
